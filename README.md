@@ -2,7 +2,7 @@
 
 This repository hosts Magisk related files
 
-<img src="https://img.shields.io/badge/MagiskVersion-d331c53b-green.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/MagiskVersionCode-23001-orange.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/StubVersionCode-21-yellow.svg?longCache=true&style=flat-square" alt="Version" />
+<img src="https://img.shields.io/badge/MagiskVersion-f69ca8252-green.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/MagiskVersionCode-23001-orange.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/StubVersionCode-21-yellow.svg?longCache=true&style=flat-square" alt="Version" />
 
 ## Custom Magisk
 
@@ -16,7 +16,7 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 <details>
 <summary><b>Check Safetynet Response</b></summary>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheHitMan7/Magisk-Files/master/images/Magisk.jpg" width="500"/>
+  <img src="https://raw.githubusercontent.com/TheHitMan7/Magisk-Files/master/images/f69ca8252.jpg" width="500"/>
 </p>
 </details>
 
