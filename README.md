@@ -38,10 +38,40 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 
 ## Conflict
 
-Do not use `app-release.apk` instead use `app-debug.apk`. Options like Hide the Magisk app, Magisk-Module-Repository, Check Safetynet does not work with stable APK release.
-Latest version of App is also **N/A** with stable APK release. It looks like a check against official and unofficial Magisk release. Hence prevent certain features.
+Do not use `MagiskRelease.apk` instead use `MagiskDebug.apk`. Options like Hide the Magisk app, Magisk-Module-Repository, Check Safetynet does not work with stable APK release.
+Latest version of App is also **N/A** with stable APK release. It looks like a check against **Official** and **Unofficial** Magisk release. Hence prevent certain features.
 
 > **Completely uninstall previous Magisk before installing custom Magisk build. Even switching between custom Magisk builds also require full uninstall.**
+
+## Installation
+
+* Uninstall previous Magisk
+* Require reboot to system
+* Install Custom Magisk
+
+> **In case, CTS profile is failing, you can follow either of below steps.**
+
+1. Wipe data and cache, Restore original boot, Reboot to recovery, Install custom Magisk.
+2. Clean flash ROM and install custom Magisk.
+
+## Requirement
+
+Keystore [Patch](https://github.com/kdrag0n/safetynet-fix#rom-integration) in ROM or use Universal Safetynet Fix Magisk [Module](https://github.com/kdrag0n/safetynet-fix/releases).
+
+1. Magisk Hide and Keystore Patch in ROM.
+2. Magisk Hide and Universal Safetynet Fix.
+3. Magisk Hide and BiTGApps Safetynet [Patch](https://github.com/BiTGApps/BiTGApps-Files/raw/master/Tools/BiTGApps-safetynet-patch_signed.zip).
+
+You can follow any of above method to pass CTS profile.
+
+> **BiTGApps Safetynet Patch**
+
+It has everything that is required for passing CTS profile.
+
+* Spoof build fingerprint to Pixel 5
+* Spoof System/Vendor build property
+* Update System/Vendor Security Patch Level
+* Shipped with Patched Keystore
 
 ## Author
 
