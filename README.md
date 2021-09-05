@@ -71,6 +71,7 @@ It has everything that is required for passing CTS profile.
 * Spoof build fingerprint to Pixel 5
 * Spoof System/Vendor build property
 * Update System/Vendor Security Patch Level
+* Update Boot Security Patch Level
 * Shipped with Patched Keystore
 
 ## Author
