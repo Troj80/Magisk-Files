@@ -43,6 +43,12 @@ Latest version of App is also **N/A** with stable APK release. It looks like a c
 
 > **Completely uninstall previous Magisk before installing custom Magisk build. Even switching between custom Magisk builds also require full uninstall.**
 
+## Build Fingerprint/Property Spoof
+
+Some ROMs used to spoof properties in a quiet different way, which creates a difference in either spoofed build fingerprint or property. This creates a glitch within the properties and make CTS profile failing. If mismatch is the case, then only CTS profile response is breaking not the safetynet itself. You can still have your banking apps working. You can check for **Netflix** and **Mario Run** in Playstore, those two Apps are affected by actual break in safetynet.
+
+> **This isn't a thing that can be fixed with Magisk Hide or Safetynet Patch.**
+
 ## Installation
 
 * Uninstall previous Magisk
@@ -73,6 +79,29 @@ It has everything that is required for passing CTS profile.
 * Update System/Vendor Security Patch Level
 * Update Boot Security Patch Level
 * Shipped with Patched Keystore
+
+## Installation
+
+Below steps are referred to BiTGApps Safetynet Patch installation.
+
+* Install ROM
+* Install GApps
+* Install Safetynet Patch
+* Reboot to system
+* Reboot to recovery
+* Install Magisk
+* Reboot to system
+* Enable Magisk Hide
+
+The only catch here is, BiTGApps Safetynet Patch must be installed before first boot. Magisk can be installed either ways and this [scenario](https://github.com/BiTGApps/BiTGApps/wiki/Custom-Magisk#build-fingerprintproperty-spoof) is also applied here.
+
+**Dirty Installation**
+
+> Once you boot with above setup. Dirty install of Safetynet Patch is completely fine. Also switching to newer Custom Magisk by simply uninstalling previous is also fine.
+
+**GApps Requirement**
+
+> Safetynet Patch has nothing to with GApps installation. If you don't want to flash GApps before boot. Thats is also fine. But patch must be installed before first boot or together with GApps package.
 
 ## Author
 
