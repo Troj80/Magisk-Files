@@ -68,7 +68,7 @@ Keystore [Patch](https://github.com/kdrag0n/safetynet-fix#rom-integration) in RO
 2. Magisk Hide and Universal Safetynet Fix.
 3. Magisk Hide and BiTGApps Safetynet [Patch](https://github.com/BiTGApps/BiTGApps-Files/raw/master/Tools/BiTGApps-safetynet-patch_signed.zip).
 
-You can follow any of above method to pass CTS profile.
+You can follow any of above method to pass CTS profile. Method [1], [2] requires a valid combination of device and model names, build fingerprints, and security patch levels.
 
 > **BiTGApps Safetynet Patch**
 
