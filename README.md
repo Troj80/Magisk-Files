@@ -38,8 +38,9 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 
 ## Conflict
 
-Do not use `MagiskRelease.apk` instead use `MagiskDebug.apk`. Options like Hide the Magisk app, Magisk-Module-Repository, Check Safetynet does not work with stable APK release.
-Latest version of App is also **N/A** with stable APK release. It looks like a check against **Official** and **Unofficial** Magisk release. Hence prevent certain features.
+Do not use `MagiskRelease.apk` instead use `MagiskDebug.apk`. Options like Hide the Magisk app, Magisk-Module-Repository, Check Safetynet does not work with MagiskRelease APK.
+Latest version of App is also **N/A** with MagiskRelease APK. Difference in Magisk VersionCode cause this issue. Hence prevent certain features. This can be fixed by updating
+Magisk Update Channel. For magisk installation either use `MagiskRelease.zip` or `MagiskDebug.zip` package. Keep in mind **Debug Package** known to generate additional logs.
 
 > **Completely uninstall previous Magisk before installing custom Magisk build. Even switching between custom Magisk builds also require full uninstall.**
 
