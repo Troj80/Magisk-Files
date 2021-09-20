@@ -20,6 +20,20 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 </p>
 </details>
 
+<details>
+<summary><b>Downloads</b></summary>
+<p align="left">
+
+[![](https://img.shields.io/badge/MagiskDebug-%20APK-green.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskDebug.apk)
+[![](https://img.shields.io/badge/MagiskDebug-%20ZIP-green.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskDebug.zip)
+[![](https://img.shields.io/badge/MagiskRelease-%20APK-yellow.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskRelease.apk)
+[![](https://img.shields.io/badge/MagiskRelease-%20ZIP-yellow.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskRelease.zip)
+
+</p>
+</details>
+
+![jsDelivr(GitHub)](https://img.shields.io/jsdelivr/gh/hd/TheHitMan7/Magisk-Files?color=yellow&style=for-the-badge)
+
 ## Sources
 
 * [Official Repository](https://github.com/topjohnwu/Magisk.git)
@@ -67,7 +81,7 @@ Keystore [Patch](https://github.com/kdrag0n/safetynet-fix#rom-integration) in RO
 
 1. Magisk Hide and Keystore Patch in ROM.
 2. Magisk Hide and Universal Safetynet Fix.
-3. Magisk Hide and BiTGApps Safetynet [Patch](https://github.com/BiTGApps/BiTGApps-Files/raw/master/Tools/BiTGApps-safetynet-patch_signed.zip).
+3. Magisk Hide and BiTGApps Safetynet [Patch](https://cdn.jsdelivr.net/gh/BiTGApps/BiTGApps-Files@master/Tools/BiTGApps-safetynet-patch_signed.zip).
 
 You can follow any of above method to pass CTS profile. Method [1], [2] requires a valid combination of device and model names, build fingerprints, and security patch levels.
 
