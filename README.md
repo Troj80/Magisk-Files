@@ -118,6 +118,17 @@ The only catch here is, BiTGApps Safetynet Patch must be installed before first 
 
 > Safetynet Patch has nothing to with GApps installation. If you don't want to flash GApps before boot. Thats is also fine. But patch must be installed before first boot or together with GApps package.
 
+## SafetyNet Response
+
+After uninstalling Custom Magisk, glitch related to Safetynet Response occurs in GooglePlayStore. This happens because you booted without Magisk for once.
+
+> **After uninstall, reboot happens itself.**
+
+On next Magisk install after enabling Magisk Hide, everything get back again. But PlayStore took time to update the CTS Profile response, although **Device Certified** is still there.
+But you can't see **Netflix** and **Super Mario Run**. Correct SafetyNet Response by flashing this package instead of waiting for the response to update itself and this will take some time.
+
+**File:** [SafetyNetResponse.zip](https://github.com/TheHitMan7/Magisk-Files/raw/master/safetynet/SafetyNetResponse.zip)
+
 ## Author
 
 Magisk is developed and owned by [topjohnwu](https://github.com/topjohnwu)
