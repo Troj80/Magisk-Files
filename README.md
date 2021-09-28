@@ -25,8 +25,6 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 <p align="left">
 
 [![](https://img.shields.io/badge/MagiskDebug-%20APK-green.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskDebug.apk)
-[![](https://img.shields.io/badge/MagiskDebug-%20ZIP-green.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskDebug.zip)
-[![](https://img.shields.io/badge/MagiskRelease-%20APK-yellow.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskRelease.apk)
 [![](https://img.shields.io/badge/MagiskRelease-%20ZIP-yellow.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/TheHitMan7/Magisk-Files@master/files/MagiskRelease.zip)
 
 </p>
@@ -54,7 +52,7 @@ I added them back while keeping the latest changes including Zygisk - Magisk in 
 
 Do not use `MagiskRelease.apk` instead use `MagiskDebug.apk`. Options like Hide the Magisk app, Magisk-Module-Repository, Check Safetynet does not work with MagiskRelease APK.
 Latest version of App is also **N/A** with MagiskRelease APK. Difference in Magisk VersionCode cause this issue. Hence prevent certain features. This can be fixed by updating
-Magisk Update Channel. For magisk installation either use `MagiskRelease.zip` or `MagiskDebug.zip` package. Keep in mind **Debug Package** known to generate additional logs.
+Magisk Update Channel. For magisk installation, only use `MagiskRelease.zip` package. Avoid installing `MagiskDebug.zip` package. Keep in mind **Debug Package** known to generate additional logs.
 
 > **Completely uninstall previous Magisk before installing custom Magisk build. Even switching between custom Magisk builds also require full uninstall.**
 
