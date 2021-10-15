@@ -2,9 +2,12 @@
 
 This repository hosts Magisk related files
 
-<img src="https://img.shields.io/badge/MagiskVersion-f4b9ace8-green.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/MagiskVersionCode-23001-orange.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/StubVersionCode-21-yellow.svg?longCache=true&style=flat-square" alt="Version" />
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?longCache=true&style=flat-square)](https://t.me/magiskcustom)
+[![Discussion](https://img.shields.io/badge/Discussion-Telegram-red.svg?longCache=true&style=flat-square)](https://t.me/custommagisk)
 
 ## Custom Magisk
+
+<img src="https://img.shields.io/badge/MagiskVersion-f4b9ace8-green.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/MagiskVersionCode-23001-orange.svg?longCache=true&style=flat-square" alt="Version" /> <img src="https://img.shields.io/badge/StubVersionCode-21-yellow.svg?longCache=true&style=flat-square" alt="Version" />
 
 Custom Magisk by [TheHitMan7](https://github.com/TheHitMan7). Always synced with official changes including Magisk Hide, Hide the Magisk app, Magisk-Module-Repository features.
 It will spoof/alter/manipulate non-Magisk related signals or traces to circumvent device state detection. Although included features are officially removed from Magisk.
